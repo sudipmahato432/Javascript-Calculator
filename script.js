@@ -104,21 +104,11 @@ class Calculator {
         this.previousOperandTextElement.innerText = this.previousOperand;
     }
 
-    ans() {
-        this.previousOperand = this.currentOperand;
-        this.currentOperand = "";
-    }
-
-    // appendBracket(bracket) {
-    //     if (bracket === "(") {
-    //       this.bracketCount++;
-    //     } else if (bracket === ")" && this.bracketCount > 0) {
-    //       this.bracketCount--;
-    //     } else {
-    //       return;
-    //     }
-    //     this.currentOperand += bracket;
+    // ans() {
+    //     this.previousOperand = this.currentOperand;
+    //     this.currentOperand = "";
     // }
+
 
 
 };
@@ -216,14 +206,8 @@ document.addEventListener("keydown", (event) => {
     }
 })
 
-ansButton.addEventListener("click", () => {
-    calculator.ans();
-    calculator.updateDisplay();
-})
+// ansButton.addEventListener("click", () => {
+//     calculator.ans();
+//     calculator.updateDisplay();
+// })
 
-// bracketButton.forEach((button) => {
-//     button.addEventListener("click", () => {
-//       calculator.appendBracket(button.innerText);
-//       calculator.updateDisplay();
-//     });
-// });
