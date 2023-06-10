@@ -4,7 +4,7 @@ Designed a Calculator with all Basic Functionalities working
 
 ## Use and Test
 
-**Calculator Link: **
+**Calculator Link:**
 [calculator.sudipmahato.io](https://sudipmahato432.github.io/Javascript-Calculator/)
 
 
